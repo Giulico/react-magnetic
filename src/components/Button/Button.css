@@ -1,0 +1,21 @@
+:root {
+    --backgorund: rgb(0, 140, 255);
+    --backgorund-hover: rgb(0, 162, 255);
+}
+
+.Button {
+    color: #fff;
+    background-color: var(--backgorund);
+    border: 0;
+    border-radius: 3px;
+    padding: 2rem 3rem;
+    transition: background-color 0.3s ease-in-out;
+    will-change: transform;
+    backface-visibility: hidden;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Button:hover {
+    background-color: var(--backgorund-hover);
+}
