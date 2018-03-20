@@ -5,7 +5,6 @@ import { TweenLite, Elastic } from 'gsap';
 
 interface OptionalProps {
   damp?: number;
-  delay?: number;
   padding?: number;
 }
 
@@ -23,7 +22,6 @@ class Magnetic extends React.Component<Props> {
   public static defaultProps: OptionalProps = {
     damp: 0.5,
     padding: 0,
-    delay: 0,
   };
 
   childRef: HTMLElement | null;
