@@ -3,7 +3,9 @@ HOC that converts DOM element into magnet.
 
 
 
-[![React title slider](https://media.giphy.com/media/8AjafeLU37sPc6PX3Z/giphy.gif)](http://gph.is/2pshtnB)
+[![React title slider](https://media.giphy.com/media/8AjafeLU37sPc6PX3Z/giphy.gif)](https://giulico.github.io/react-magnetic/)
+
+[Demo](https://giulico.github.io/react-magnetic/)
 
 ## Example
 ```javascript
